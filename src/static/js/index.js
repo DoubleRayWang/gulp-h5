@@ -17,7 +17,7 @@ $(function () {
             right.classList.remove('width-none');
             clip.classList.add('auto');
         }
-        rotate += 1;
+        rotate++;
         left.style.transform = 'rotate(' + 360 / time * rotate + 'deg)';
         num.innerHTML = rotate + '%';
     }, time);
